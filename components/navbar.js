@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import navbar from '../styles/navbar.module.scss'
 import { Icon } from 'react-icons-kit'
@@ -9,6 +8,7 @@ export default function NavbarComponent() {
     <Navbar
         expand="md"
         className={navbar.navbarMain}
+        fixed="top"
     >
         <NavbarBrand href="/" className={navbar.logoWrapper}>
             <Image src="/LOGO.png" alt="me" width="96" height="22" />
