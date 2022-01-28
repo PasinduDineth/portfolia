@@ -21,7 +21,7 @@ export default function HeroSection() {
         </div>
         <div className={hero.heroRightMain}>
             <Image
-                src='/Avatar.png'
+                src='/image.png'
                 layout='fill'
                 objectFit='contain'
             />

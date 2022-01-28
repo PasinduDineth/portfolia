@@ -5,6 +5,8 @@ import NavbarComponent from "../components/navbar"
 import HeroSection from "../components/heroSection"
 import StatsRibbon from "../components/statsRibbon"
 import Services from "../components/services"
+import AboutSection from "../components/aboutSection"
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,6 +23,9 @@ export default function Home() {
       </div>
       <StatsRibbon/>
       <Services/>
+      <div className={styles.aboutWrapper}>
+      <AboutSection/>
+      </div>
     </div>
   )
 }
