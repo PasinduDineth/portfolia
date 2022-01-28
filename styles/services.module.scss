@@ -42,3 +42,51 @@
     
     color: rgba(18, 18, 18, 0.7);
 }
+.servicesCardMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statItemWrapper {
+    flex: 0.15;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background: #F9F9FC;
+    box-shadow: 37px 37px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 60px;
+    border: 0px;
+}
+.statItemAmount {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #000000;
+}
+
+.statItemTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 18px;
+    
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: rgba(18, 18, 18, 0.7);
+    margin-bottom: 8px;
+    
+    
+}
