@@ -8,7 +8,7 @@ import Services from "../components/services"
 import AboutSection from "../components/aboutSection"
 import LogoSection from "../components/logoSection"
 import PortfolioSection from "../components/portfolioSection"
-
+import TestamonialsSection from "../components/testamonials"
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -30,6 +30,7 @@ export default function Home() {
       </div>
       <LogoSection/>
       <PortfolioSection/>
+      <TestamonialsSection/>
     </div>
   )
 }
