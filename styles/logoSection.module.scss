@@ -1,0 +1,92 @@
+.logoSectionMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.logoSectionTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    
+    /* identical to box height, or 162% */
+    letter-spacing: 1.5px;
+    
+    color: #5E3BEE;
+}
+.logoSectionSubtitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    
+    /* identical to box height, or 127% */
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+}
+.logoSectionDescription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: rgba(18, 18, 18, 0.7);
+}
+.logoSectionCardMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statItemWrapper {
+    flex: 0.15;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    background: #F9F9FC;
+    box-shadow: 37px 37px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 30px;
+    border: 0px;
+}
+.statItemAmount {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #000000;
+}
+
+.statItemTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 18px;
+    
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: rgba(18, 18, 18, 0.7);
+    margin-bottom: 8px;
+    
+    
+}
