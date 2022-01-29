@@ -2,6 +2,7 @@ import Image from 'next/image'
 import navbar from '../styles/navbar.module.scss'
 import { Icon } from 'react-icons-kit'
 import {ic_forward_to_inbox_outline} from 'react-icons-kit/md/ic_forward_to_inbox_outline'
+import { Link } from "react-scroll";
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Button, DropdownItem, UncontrolledDropdown, DropdownToggle, DropdownMenu} from 'reactstrap';
 export default function NavbarComponent() {
   return (
@@ -19,35 +20,60 @@ export default function NavbarComponent() {
         <Nav
             navbar
         >
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
+            <NavItem className={navbar.navItem}>
+                <Link className={navbar.customFont} 
+                activeClass="active"
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
                     HOME
-                </NavLink>
+                </Link>
             </NavItem>
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
-                    ABOUT
-                </NavLink>
+            <NavItem className={navbar.navItem}>
+                <Link className={navbar.customFont} 
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
+                    SERVICES
+                </Link>
             </NavItem>
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
-                    TECH STACH
-                </NavLink>
+            <NavItem className={navbar.navItem}>
+                <Link className={navbar.customFont} 
+                activeClass="active"
+                to="technologies"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
+                    TECHNOLOGIES
+                </Link>
             </NavItem>
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
-                    EDUCATION
-                </NavLink>
+            <NavItem className={navbar.navItem}>
+                <Link className={navbar.customFont} 
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
+                    PROJECTS
+                </Link>
             </NavItem>
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
+            <NavItem className={navbar.navItem}>
+                <Link className={navbar.customFont} 
+                activeClass="active"
+                to="feedbacks"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
                     FEEDBACKS
-                </NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink href="/components/" className={navbar.customFont}>
-                    CONTACT
-                </NavLink>
+                </Link>
             </NavItem>
         </Nav>
         <Button

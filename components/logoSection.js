@@ -5,7 +5,7 @@ import {cloudDownload} from 'react-icons-kit/oct/cloudDownload'
 import { Navbar, Card, NavbarToggler, Collapse, Nav, NavItem, NavLink, Button, DropdownItem, UncontrolledDropdown, DropdownToggle, DropdownMenu} from 'reactstrap';
 export default function LogoSection() {
   return (
-    <div className={logoSection.logoSectionMain}>
+    <div className={logoSection.logoSectionMain} id="technologies">
         <p className={logoSection.logoSectionTitle}>logoSection</p>
         <p className={logoSection.logoSectionSubtitle}>What I Do For My Customer.</p>
         <p className={logoSection.logoSectionDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>

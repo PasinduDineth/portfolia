@@ -19,6 +19,7 @@ $primary-color-white: #FFFFFF;
     line-height: 22px;
     letter-spacing: 1.5px;
     color: #000000;
+    cursor: pointer;
 }
 .collapse {
     justify-content: space-between;
@@ -43,4 +44,10 @@ letter-spacing: 0.5px;
 
 color: $primary-color-white;
 margin: 0px !important;
+}
+.navItem {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
