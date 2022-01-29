@@ -6,6 +6,7 @@ import HeroSection from "../components/heroSection"
 import StatsRibbon from "../components/statsRibbon"
 import Services from "../components/services"
 import AboutSection from "../components/aboutSection"
+import LogoSection from "../components/logoSection"
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <div className={styles.aboutWrapper}>
       <AboutSection/>
       </div>
+      <LogoSection/>
     </div>
   )
 }
