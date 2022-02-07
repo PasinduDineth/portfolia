@@ -1,3 +1,33 @@
 $primary-bg: #F9F9FC;
 $primary-purple: #5E3BEE;
 $primary-white: #FFFFFF;
+$S: "600px";
+$M: "768px";
+$L: "992px";
+$XL: "1200px";
+
+//  // Responsive Design
+//     /* Extra small devices (phones, 600px and down) */
+//     @media only screen and (max-width: $S) {
+//         flex-direction: column;
+//     }
+
+//     /* Small devices (portrait tablets and large phones, 600px and up) */
+//     @media only screen and (min-width: $S) {
+
+//     }
+
+//     /* Medium devices (landscape tablets, 768px and up) */
+//     @media only screen and (min-width: $M) {
+
+//     }
+
+//     /* Large devices (laptops/desktops, 992px and up) */
+//     @media only screen and (min-width: $L) {
+
+//     }
+
+//     /* Extra large devices (large laptops and desktops, 1200px and up) */
+//     @media only screen and (min-width: $XL) {
+
+//     } 

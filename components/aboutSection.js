@@ -7,15 +7,8 @@ export default function AboutSection() {
   return (
     <div className={about.aboutMain} id="ABOUT">
         <div className={about.aboutLeftMain}>
-            <div>
                 <p className={about.fullName}>ABOUT</p>
-                <p className={about.welcomeMessage}>Education and Experience. </p>
-                    {/* <Button
-                        className={about.hireMeButton}
-                    >
-                        <p className={about.hireMeButtonText}><Icon icon={ic_forward_to_inbox_outline} size={16} className={about.cvButton} />CONTACT ME</p>
-                    </Button> */}
-                
+                <p className={about.welcomeMessage}>Education and Experience. </p>               
                 <p className={about.aboutDescription}>During my career, I have been contributing to the different aspects of the development cycle. Below will be some of my mainly forcused Programing lanuages, Frameworks and softwares.</p>
                 <p className={about.techHeading}>Technologies and Frameworks</p>
                 <div className={about.techMain}>
@@ -38,7 +31,6 @@ export default function AboutSection() {
                         <p className={about.bulletText}><Icon icon={ic_play_arrow} size={20} className={about.bulletButton} /> PGD in Strategic Management - OTHM Qualifications</p>
                         <p className={about.bulletText}><Icon icon={ic_play_arrow} size={20} className={about.bulletButton} /> BSc(Hons) Computer Science - University of Greenwich, UK</p>
                 </div>
-            </div>
         </div>
         <div className={about.aboutRightMain}>
             <Image
