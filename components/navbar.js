@@ -20,10 +20,10 @@ export default function NavbarComponent() {
         <Nav
             navbar
         >
-            <NavItem className={navbar.navItem}>
+            <NavItem className={navbar.navbarItem}>
                 <Link className={navbar.customFont} 
                 activeClass="active"
-                to="hero"
+                to="HOME"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -31,32 +31,32 @@ export default function NavbarComponent() {
                     HOME
                 </Link>
             </NavItem>
-            <NavItem className={navbar.navItem}>
+            <NavItem className={navbar.navbarItem}>
                 <Link className={navbar.customFont} 
                 activeClass="active"
-                to="services"
+                to="EXPERTISE"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}>
-                    SERVICES
+                    EXPERTISE
                 </Link>
             </NavItem>
-            <NavItem className={navbar.navItem}>
+            <NavItem className={navbar.navbarItem}>
                 <Link className={navbar.customFont} 
                 activeClass="active"
-                to="technologies"
+                to="ABOUT"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}>
-                    TECHNOLOGIES
+                    ABOUT
                 </Link>
             </NavItem>
-            <NavItem className={navbar.navItem}>
+            <NavItem className={navbar.navbarItem}>
                 <Link className={navbar.customFont} 
                 activeClass="active"
-                to="projects"
+                to="PROJECTS"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -64,15 +64,15 @@ export default function NavbarComponent() {
                     PROJECTS
                 </Link>
             </NavItem>
-            <NavItem className={navbar.navItem}>
+            <NavItem className={navbar.navbarItem}>
                 <Link className={navbar.customFont} 
                 activeClass="active"
-                to="feedbacks"
+                to="RECOMMENDATIONS"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}>
-                    FEEDBACKS
+                    RECOMMENDATIONS
                 </Link>
             </NavItem>
         </Nav>

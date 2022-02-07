@@ -7,7 +7,7 @@ import { Card, CardImg, CardText, CardBody,
 export default function PortfolioSection() {
   return (
     <div className={portfolio.portfolioMain}>
-        <div className={portfolio.portfolioLeftMain} id="projects">
+        <div className={portfolio.portfolioLeftMain} id="PROJECTS">
                 <p className={portfolio.fullName}>Some Of My Latest</p>
                 <p className={portfolio.welcomeMessage}>Selected <span className={portfolio.softwareEngineerText}>Works</span><br/></p>
         </div>

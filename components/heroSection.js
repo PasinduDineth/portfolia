@@ -5,7 +5,7 @@ import {cloudDownload} from 'react-icons-kit/oct/cloudDownload'
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Button, DropdownItem, UncontrolledDropdown, DropdownToggle, DropdownMenu} from 'reactstrap';
 export default function HeroSection() {
   return (
-    <div className={hero.heroMain} id="hero">
+    <div className={hero.heroMain} id="HOME">
         <div className={hero.heroLeftMain}>
             <div>
                 <p className={hero.fullName}>Pasindu Dineth Peiris</p>

@@ -25,12 +25,12 @@ export default function Home() {
         <NavbarComponent/>
         <HeroSection/>
       </div>
-      <StatsRibbon/>
+      {/* <StatsRibbon/> */}
       <Services/>
       <div className={styles.aboutWrapper}>
       <AboutSection/>
       </div>
-      <LogoSection/>
+      {/* <LogoSection/> */}
       <PortfolioSection/>
       <TestamonialsSection/>
       <Footer/>

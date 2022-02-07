@@ -5,8 +5,8 @@ import {cloudDownload} from 'react-icons-kit/oct/cloudDownload'
 import { Navbar, Card, NavbarToggler, Collapse, Nav, NavItem, NavLink, Button, DropdownItem, UncontrolledDropdown, DropdownToggle, DropdownMenu} from 'reactstrap';
 export default function TestamonialsSection() {
   return (
-    <div className={Testamonials.TestamonialsMain} id="feedbacks">
-        <p className={Testamonials.TestamonialsTitle}>Testamonials</p>
+    <div className={Testamonials.TestamonialsMain} id="RECOMMENDATIONS">
+        <p className={Testamonials.TestamonialsTitle}>RECOMMENDATIONS</p>
         <p className={Testamonials.TestamonialsSubtitle}>What Our Clients Say.</p>
         <p className={Testamonials.TestamonialsDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
         <div className={Testamonials.TestamonialsCardMain}>
