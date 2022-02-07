@@ -1,3 +1,4 @@
+@import "./theme.module.scss";
 .portfolioMain {
     margin-left: 5%;
     margin-right: 5%;
@@ -22,7 +23,7 @@
     /* identical to box height, or 162% */
     letter-spacing: 1.5px;
 
-    color: #5E3BEE;
+    color: $primary-purple;
     text-align: left;
 }
 
@@ -40,12 +41,12 @@
 }
 .softwareEngineerText {
     font-family: 'Caveat', cursive;
-    color: #5E3BEE;
+    color: $primary-purple;
     font-size: 40px;
 }
 
 .hireMeButton {
-    background: #5E3BEE;
+    background: $primary-purple;
     border-radius: 50px;
     border: 0px !important;
 }
