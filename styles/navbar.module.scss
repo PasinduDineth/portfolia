@@ -1,9 +1,7 @@
-$primary-color-bg: #F9F9FC;
-$primary-color-purple: #5E3BEE;
-$primary-color-white: #FFFFFF;
+@import "./theme.module.scss";
 
 .navbarMain{
-    background-color: $primary-color-bg;
+    background-color: $primary-bg;
     padding-left: 5%;
     padding-right: 5%;
     box-shadow: 0 2px 6px rgba(0,0,0,0.02), 0 2px 6px rgba(0,0,0,0.04);
@@ -26,7 +24,7 @@ $primary-color-white: #FFFFFF;
 }
 
 .hireMeButton {
-    background: $primary-color-purple;
+    background: $primary-purple;
     border-radius: 50px;
     border: 0px !important;
 }
@@ -42,7 +40,7 @@ line-height: 21px;
 /* identical to box height */
 letter-spacing: 0.5px;
 
-color: $primary-color-white;
+color: $primary-white;
 margin: 0px !important;
 }
 .navbarItem {
@@ -63,8 +61,8 @@ margin: 0px !important;
     margin: 0 5px;
   }
   .navbarItem a:hover {
-    border-top: 2px solid $primary-color-purple;
-    border-bottom: 2px solid $primary-color-purple;
+    border-top: 2px solid $primary-purple;
+    border-bottom: 2px solid $primary-purple;
     padding: 2px 0; 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }

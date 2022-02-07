@@ -1,3 +1,4 @@
+@import "./theme.module.scss";
 .aboutMain {
     display: flex;
     // height: 100%;
@@ -31,7 +32,7 @@
     /* identical to box height, or 162% */
     letter-spacing: 1.5px;
 
-    color: #5E3BEE;
+    color: $primary-purple;
     text-align: left;
 }
 .aboutDescription {
@@ -62,13 +63,13 @@
 }
 .softwareEngineerText {
     font-family: 'Caveat', cursive;
-    color: #5E3BEE;
+    color: $primary-purple;
     font-size: 40px;
     margin-right: 5px;
 }
 
 .hireMeButton {
-    background: #5E3BEE;
+    background: $primary-purple;
     border-radius: 50px;
     border: 0px !important;
 }
@@ -93,7 +94,7 @@ margin: 0px !important;
 }
 
 .bulletButton {
-    color: #5E3BEE;
+    color: $primary-purple;
 }
 
 .bulletText {
@@ -123,7 +124,7 @@ margin: 0px !important;
     /* identical to box height, or 162% */
     letter-spacing: 1.5px;
 
-    color: #5E3BEE;
+    color: $primary-purple;
     text-align: left;
 }
 .eduHeading {
@@ -136,7 +137,7 @@ margin: 0px !important;
     /* identical to box height, or 162% */
     letter-spacing: 1.5px;
 
-    color: #5E3BEE;
+    color: $primary-purple;
     text-align: left;
     margin-top: 10px;
 }

@@ -1,3 +1,4 @@
+@import "./theme.module.scss";
 .servicesMain {
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
     /* identical to box height, or 162% */
     letter-spacing: 1.5px;
     
-    color: #5E3BEE;
+    color: $primary-purple;
 }
 .servicesSubtitle {
     font-family: Poppins;

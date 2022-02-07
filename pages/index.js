@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/index.module.scss'
 import NavbarComponent from "../components/navbar"
 import HeroSection from "../components/heroSection"
 import StatsRibbon from "../components/statsRibbon"
