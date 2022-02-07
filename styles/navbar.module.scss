@@ -45,9 +45,26 @@ letter-spacing: 0.5px;
 color: $primary-color-white;
 margin: 0px !important;
 }
-.navItem {
+.navbarItem {
     display: flex;
     align-items: center;
     margin-left: 5px;
     margin-right: 5px;
 }
+
+  
+  .navbarItem a {
+    transition: 0.3s ease;
+    font-size: 12px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding: 10px 0;
+    margin: 0 5px;
+  }
+  .navbarItem a:hover {
+    border-top: 2px solid $primary-color-purple;
+    border-bottom: 2px solid $primary-color-purple;
+    padding: 2px 0; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }

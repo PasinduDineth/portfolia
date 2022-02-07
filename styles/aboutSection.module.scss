@@ -1,12 +1,13 @@
 .aboutMain {
     display: flex;
-    height: 550px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 70px;
+    // height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .aboutLeftMain {
-    flex: 1;
+    flex: 0.5;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -14,9 +15,9 @@
 }
 
 .aboutRightMain {
-    flex: 1;
+    flex: 0.5;
     width: 100%; 
-    height: 100%;
+    min-height: 100%;
     position: relative;
 }
 
@@ -33,14 +34,27 @@
     color: #5E3BEE;
     text-align: left;
 }
+.aboutDescription {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    
+    /* or 200% */
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    color: rgba(18, 18, 18, 0.7);
+}
 
 .welcomeMessage {
     
     font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
-    line-height: 66px;
+    font-size: 30px;
+    line-height: 36px;
 
     /* or 130% */
 
@@ -49,7 +63,8 @@
 .softwareEngineerText {
     font-family: 'Caveat', cursive;
     color: #5E3BEE;
-    font-size: 70px;
+    font-size: 40px;
+    margin-right: 5px;
 }
 
 .hireMeButton {
@@ -75,4 +90,53 @@ margin: 0px !important;
 
 .cvButton {
     padding-right: 5px;
+}
+
+.bulletButton {
+    color: #5E3BEE;
+}
+
+.bulletText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    
+    /* or 200% */
+    text-align: left;
+    margin-left: 12px;
+    color: rgba(18, 18, 18, 0.7);
+    margin-bottom: 8px;
+}
+.techMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+.techHeading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+    letter-spacing: 1.5px;
+
+    color: #5E3BEE;
+    text-align: left;
+}
+.eduHeading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+
+    /* identical to box height, or 162% */
+    letter-spacing: 1.5px;
+
+    color: #5E3BEE;
+    text-align: left;
+    margin-top: 10px;
 }
