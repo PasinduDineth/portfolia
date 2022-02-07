@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <div className={services.servicesMain} id="EXPERTISE">
         <p className={services.servicesTitle}>EXPERTISE</p>
-        <p className={services.servicesSubtitle}>What I am good at ?</p>
+        <p className={services.servicesSubtitle}>What I am good at?</p>
         <p className={services.servicesDescription}>I can involve in more than one sectors of product development process.<br/>I have expeience in all below sectors during my career.</p>
         <div className={services.servicesCardMain}>
             <Card className={services.statItemWrapper}>

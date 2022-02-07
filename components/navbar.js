@@ -1,21 +1,24 @@
 import Image from 'next/image'
+import React, { useState } from 'react';
 import navbar from '../styles/navbar.module.scss'
 import { Icon } from 'react-icons-kit'
 import {ic_forward_to_inbox_outline} from 'react-icons-kit/md/ic_forward_to_inbox_outline'
 import { Link } from "react-scroll";
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Button, DropdownItem, UncontrolledDropdown, DropdownToggle, DropdownMenu} from 'reactstrap';
 export default function NavbarComponent() {
+    const [isOpen, setIsOpen] = useState(0);
   return (
     <Navbar
         expand="md"
         className={navbar.navbarMain}
         fixed="top"
+        light
     >
         <NavbarBrand href="/" className={navbar.logoWrapper}>
             <Image src="/LOGO.png" alt="me" width="96" height="22" />
         </NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck(){}} />
-        <Collapse navbar className={navbar.collapse}>
+        <NavbarToggler onClick={() => setIsOpen(!isOpen)}/>
+        <Collapse navbar  isOpen={isOpen} className={navbar.collapse}>
         <div/>
         <Nav
             navbar

@@ -7,7 +7,6 @@ export default function HeroSection() {
   return (
     <div className={hero.heroMain} id="HOME">
         <div className={hero.heroLeftMain}>
-            <div>
                 <p className={hero.fullName}>Pasindu Dineth Peiris</p>
                 <p className={hero.welcomeMessage}>Hello, my <br/>
                     name’s Pasindu. <br/>
@@ -17,7 +16,6 @@ export default function HeroSection() {
                     >
                         <p className={hero.hireMeButtonText}>DOWNLOAD CV <Icon icon={cloudDownload} className={hero.cvButton} /></p>
                     </Button>
-            </div>
         </div>
         <div className={hero.heroRightMain}>
             <Image
