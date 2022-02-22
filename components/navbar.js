@@ -15,7 +15,7 @@ export default function NavbarComponent() {
         light
     >
         <NavbarBrand href="/" className={navbar.logoWrapper}>
-            <Image src="/LOGO.png" alt="me" width="96" height="22" />
+            <Image src="/logo2.png" alt="me" width="96" height="25" />
         </NavbarBrand>
         <NavbarToggler onClick={() => setIsOpen(!isOpen)}/>
         <Collapse navbar  isOpen={isOpen} className={navbar.collapse}>

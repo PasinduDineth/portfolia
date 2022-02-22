@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className={footer.footerMain}>
         <div className={footer.logoSection}>
-            <Image src="/LOGOWHITE.png" alt="me" width="140" height="22" />
+            <Image src="/LOGOWHITE.png" alt="me" width="80" height="22" />
             <p className={footer.logoDescription}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit. Cras vitae <br/>blandit lectus. Praesent at hendrerit.</p>
         </div>
         <div className={footer.contactSection}>

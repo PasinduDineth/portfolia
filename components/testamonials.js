@@ -7,7 +7,7 @@ export default function TestamonialsSection() {
   return (
     <div className={Testamonials.TestamonialsMain} id="RECOMMENDATIONS">
         <p className={Testamonials.TestamonialsTitle}>RECOMMENDATIONS</p>
-        <p className={Testamonials.TestamonialsSubtitle}>What Our Clients Say.</p>
+        <p className={Testamonials.TestamonialsSubtitle}>What My Colleagues Say.</p>
         <p className={Testamonials.TestamonialsDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
         <div className={Testamonials.TestamonialsCardMain}>
             <Card className={Testamonials.statItemWrapper}>
