@@ -19,7 +19,7 @@ export default function HeroSection() {
         </div>
         <div className={hero.heroRightMain}>
             <Image
-                src='/image.png'
+                src='/image2.png'
                 layout='fill'
                 objectFit='contain'
             />

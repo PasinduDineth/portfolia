@@ -7,7 +7,7 @@ export default function AboutSection() {
   return (
     <div className={about.aboutMain} id="ABOUT">
         <div className={about.aboutLeftMain}>
-                <p className={about.fullName}>ABOUT</p>
+                <p className={about.aboutHeading}>ABOUT</p>
                 <p className={about.welcomeMessage}>Education and Experience. </p>               
                 <p className={about.aboutDescription}>During my career, I have been contributing to the different aspects of the development cycle. Below will be some of my mainly forcused Programing lanuages, Frameworks and softwares.</p>
                 <p className={about.techHeading}>Technologies and Frameworks</p>
@@ -34,7 +34,7 @@ export default function AboutSection() {
         </div>
         <div className={about.aboutRightMain}>
             <Image
-                src='/Avatar.png'
+                src='/techedu.png'
                 layout='fill'
                 objectFit='contain'
             />
